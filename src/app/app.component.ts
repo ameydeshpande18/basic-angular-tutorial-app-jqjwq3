@@ -8,18 +8,19 @@ import { saveAs } from "file-saver";
   styleUrls: ["./app.component.css"]
 })
 export class AppComponent {
-  async download() {
-    console.log(createReport);
+  download() {
 
-    const report = await createReport({
-      template: "../assets/test.docx",
-      output: "output.docx",
-      data: { test: "this is test data" }
-    });
-    const blob = new Blob([report], {
-      type:
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
-    });
-    saveAs(blob, "abc.docx");
+    // const report = await createReport({
+    //   template: "../assets/test.docx",
+    //   output: "output.docx",
+    //   data: {}
+    // });
+    // console.log(report);
+
+    // const blob = new Blob(['testing'], {
+    //   type:
+    //     "text/plain;charset=utf-8"
+    // });
+    // saveAs(blob, "abc.docx");
   }
 }

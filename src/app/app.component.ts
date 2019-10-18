@@ -17,10 +17,10 @@ export class AppComponent {
     // });
     // console.log(report);
 
-    // const blob = new Blob(['testing'], {
-    //   type:
-    //     "text/plain;charset=utf-8"
-    // });
+    const blob = new Blob(['testing'], {
+      type:
+        "text/plain;charset=utf-8"
+    });
     // saveAs(blob, "abc.docx");
   }
 }

@@ -11,7 +11,7 @@ export class AppComponent {
     console.log(createReport);
 
     createReport({
-      template: "../assets/test.docxF",
+      template: "../assets/test.docx",
       output: "output.docx",
       data: {'test':'this is test data'}
     });

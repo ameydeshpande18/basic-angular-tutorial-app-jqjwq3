@@ -17,7 +17,8 @@
     "@angular/platform-browser": "6.0.2",
     "@ng-bootstrap/ng-bootstrap": "2.0.0",
     "@angular/platform-browser-dynamic": "6.0.2",
-    "docx-templates":"3.1.0"
+    "docx-templates":"3.1.0",
+    "file-saver":"2.0.2"
   },
   "scripts": {
     "ng": "ng",
@@ -46,7 +47,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.1.1",
+    "typescript": "~3.1.1"
 
   }
 }

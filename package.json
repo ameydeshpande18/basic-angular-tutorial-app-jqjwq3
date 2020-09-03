@@ -15,7 +15,7 @@
     "core-js": "2.5.6",
     "docx-templates": "3.1.0",
     "file-saver": "2.0.2",
-    "ngx-md": "3.1.1",
+    "ngx-md": "8.1.6",
     "rxjs": "6.1.0",
     "rxjs-compat": "6.1.0",
     "storyboard": "^3.1.4",
